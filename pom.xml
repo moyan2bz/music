@@ -20,10 +20,10 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <java.version>1.8</java.version>
-        <android.plugin.version>4.2.0</android.plugin.version>
-        <android.platform.version>31</android.platform.version>
-        <androidx.version>2.4.1</androidx.version>
+        <java.version>17</java.version>
+        <android.plugin.version>7.4.2</android.plugin.version>
+        <android.platform.version>34</android.platform.version>
+        <androidx.version>1.6.0</androidx.version>
     </properties>
 
     <dependencies>
@@ -99,31 +99,31 @@
         <dependency>
             <groupId>com.github.bumptech.glide</groupId>
             <artifactId>glide</artifactId>
-            <version>4.13.0</version>
+            <version>4.16.0</version>
         </dependency>
 
         <!-- ExoPlayer for Media Playback -->
         <dependency>
             <groupId>com.google.android.exoplayer</groupId>
             <artifactId>exoplayer-core</artifactId>
-            <version>2.17.1</version>
+            <version>2.19.1</version>
         </dependency>
         <dependency>
             <groupId>com.google.android.exoplayer</groupId>
             <artifactId>exoplayer-ui</artifactId>
-            <version>2.17.1</version>
+            <version>2.19.1</version>
         </dependency>
 
         <!-- Retrofit for Network Requests -->
         <dependency>
             <groupId>com.squareup.retrofit2</groupId>
             <artifactId>retrofit</artifactId>
-            <version>2.9.0</version>
+            <version>2.11.0</version>
         </dependency>
         <dependency>
             <groupId>com.squareup.retrofit2</groupId>
             <artifactId>converter-gson</artifactId>
-            <version>2.9.0</version>
+            <version>2.11.0</version>
         </dependency>
 
         <!-- JUnit for Testing -->

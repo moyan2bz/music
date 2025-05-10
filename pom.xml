@@ -23,7 +23,7 @@
         <java.version>17</java.version>
         <android.plugin.version>4.2.0</android.plugin.version>
         <android.platform.version>34</android.platform.version>
-        <androidx.version>1.6.0</androidx.version>
+        <androidx.version>2.5.1</androidx.version>
     </properties>
 
     <dependencies>

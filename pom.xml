@@ -12,7 +12,7 @@
     <groupId>com.musicplayer</groupId>
     <artifactId>elegant-music-player</artifactId>
     <version>1.0.0</version>
-    <packaging>apk</packaging>
+    <packaging>aar</packaging>
 
     <name>ElegantMusicPlayer</name>
     <description>一个优雅美观的安卓音乐播放器应用</description>
@@ -21,7 +21,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>17</java.version>
-        <android.plugin.version>7.4.2</android.plugin.version>
+        <android.plugin.version>4.2.0</android.plugin.version>
         <android.platform.version>34</android.platform.version>
         <androidx.version>1.6.0</androidx.version>
     </properties>

@@ -53,21 +53,21 @@
         <dependency>
             <groupId>com.google.android.material</groupId>
             <artifactId>material</artifactId>
-            <version>1.5.0</version>
+            <version>${androidx.version}</version>
         </dependency>
 
         <!-- ConstraintLayout -->
         <dependency>
             <groupId>androidx.constraintlayout</groupId>
             <artifactId>constraintlayout</artifactId>
-            <version>2.1.3</version>
+            <version>${androidx.version}</version>
         </dependency>
 
         <!-- RecyclerView -->
         <dependency>
             <groupId>androidx.recyclerview</groupId>
             <artifactId>recyclerview</artifactId>
-            <version>1.2.1</version>
+            <version>${androidx.version}</version>
         </dependency>
 
         <!-- Lifecycle Components -->
@@ -86,12 +86,12 @@
         <dependency>
             <groupId>androidx.room</groupId>
             <artifactId>room-runtime</artifactId>
-            <version>2.4.2</version>
+            <version>${androidx.version}</version>
         </dependency>
         <dependency>
             <groupId>androidx.room</groupId>
             <artifactId>room-compiler</artifactId>
-            <version>2.4.2</version>
+            <version>${androidx.version}</version>
             <scope>provided</scope>
         </dependency>
 
